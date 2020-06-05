@@ -9,7 +9,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  firebase_messaging: ^5.1.6
+  firebase_messaging:
+    git:
+      url: https://github.com/ened/flutterfire.git
+      path: packages/firebase_messaging
+      ref: 6237973ce4b0aae5de0d828c3ba073cc04d50cea
 
 dev_dependencies:
   flutter_test:
